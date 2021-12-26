@@ -1,0 +1,43 @@
+.header {
+  padding: 10px 15px;
+  background-color: black;
+}
+.header span {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+.formContainer {
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+}
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+}
+.formContainer label {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.formContainer input {
+  padding: 10px;
+  width: 320px;
+}
+ 
+.formContainer button {
+  padding: 10px;
+  margin-left: 5px;
+}
+.formContainer .item {
+  padding: 10px ;
+  margin: 0 50px;
+  margin-bottom: 5px;
+  border:1px solid #ddd;
+  display: flex; 
+  justify-content: space-between;
+}
